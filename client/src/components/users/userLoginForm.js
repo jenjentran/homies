@@ -50,6 +50,7 @@ function UserLoginForm() {
             onChange={(e) => setLoginUsername(e.target.value)}
         />
         <input
+            type="password"
             className="loginInput"
             placeholder="Password"
             onChange={(e) => setLoginPassword(e.target.value)}

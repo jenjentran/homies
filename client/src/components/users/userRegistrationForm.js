@@ -61,14 +61,14 @@ function UserRegistrationForm() {
                 onChange={(e) => setRegisterUsername(e.target.value)}
             />
             <input
-                className="registerInput"
                 type="password"
+                className="registerInput"
                 placeholder="password"
                 onChange={(e) => setRegisterPassword(e.target.value)}
             />
             <input
-                className="registerInput"
                 type="password"
+                className="registerInput"
                 placeholder="confirm password"
                 onChange={(e) => setRegisterConfirmPassword(e.target.value)}
             />

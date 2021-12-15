@@ -45,7 +45,6 @@ function NavBar() {
                 ) : (
                     <div className="navBarRight">
                         <a className="rightLinks" href="/login">Login</a>
-                        <button onclick="logout">Logout</button>
                         <a className="rightLinks" href="/register">Register</a>
                     </div>
                 )}

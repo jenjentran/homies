@@ -9,7 +9,7 @@ function NavBar() {
         Axios({
             method: "GET",
             withCredentials: true,
-            url: "http://localhost:4000/",
+            url: "api/",
         }).then((res) => {
             setUser(res.data);
         });
@@ -19,7 +19,7 @@ function NavBar() {
         Axios({
             method: "GET",
             withCredentials: true,
-            url: "http://localhost:4000/logout",
+            url: "api/logout",
         }).then((res) => {
             console.log(res);
             if(res.status === 200 && window) {
@@ -45,6 +45,7 @@ function NavBar() {
                 ) : (
                     <div className="navBarRight">
                         <a className="rightLinks" href="/login">Login</a>
+                        <button onclick="logout">Logout</button>
                         <a className="rightLinks" href="/register">Register</a>
                     </div>
                 )}

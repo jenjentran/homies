@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --site-themed-color: rgb(14, 181, 123);
+    --site-themed-color-dark: rgb(18, 155, 107);
+    --border-color: #ccc;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(248, 248, 248);
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px var(--border-color);
+    box-shadow: 0 0 10px var(--border-color);
+}
+
+.registerHeader {
+    font-size: 26px;
+    margin: 15px 0px;
+    color: var(--site-themed-color);
+}
+
+.registerInput {
+    font-size: 18px;
+    padding: 6px;
+    width: 300px;
+    height: 30px;
+    margin: 15px 0px;
+    border-radius: 6px;
+    outline: none;
+    border-style: groove;
+    color: var(--site-themed-color);
+}
+
+.registerButton {
+    font-size: 20px;
+    padding: 10px;
+    width: 125px;
+    margin: 15px 0px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--site-themed-color);
+    -webkit-box-shadow: 0 0 10px var(--border-color);
+    box-shadow: 0 0 10px var(--border-color);
+    color: white;
+}
+
+.registerLoginLink {
+    color: var(--site-themed-color);
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid var(--border-color);
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.registerLoginLink:hover {
+    color: var(--site-themed-color-dark);
+}

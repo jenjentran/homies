@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --site-themed-color: rgb(14, 181, 123);
+    --site-themed-color-dark: rgb(18, 155, 107);
+    --site-themed-blue-color: rgb(38, 147, 248);
+    --border-color: #ccc;
+    --background-color: rgb(248, 248, 248);
+    --background-shade: rgb(0, 0, 0, 0.7);
+}
+
+.navBarContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--site-themed-color);
+    color: white    ;
+}
+
+.navBarLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarLogo {
+    width: 80px;
+    margin: 20px;
+}
+
+.leftLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.rightLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.leftLinks:visited, .rightLinks:visited {
+    color: white;
+}
+
+.leftLinks:hover, .rightLinks:hover {
+    background-color: var(--site-themed-color-dark);
+}
